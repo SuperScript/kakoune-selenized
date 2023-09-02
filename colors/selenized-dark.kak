@@ -39,7 +39,7 @@ set-face global variable ${magenta}
 set-face global module ${blue}
 set-face global function ${br_cyan}
 set-face global string ${br_green}
-set-face global keyword ${violet}+b
+set-face global keyword ${br_yellow}+b
 set-face global operator ${br_cyan}
 set-face global attribute ${orange}
 set-face global comment ${white}
