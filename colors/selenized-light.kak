@@ -66,6 +66,8 @@ set-face global PrimarySelection ${fg},$br_black+i
 set-face global SecondarySelection $black,$white
 set-face global PrimaryCursor $black,$red+b
 set-face global SecondaryCursor $bg,$br_cyan+i
+set-face global PrimaryCursorEol $black,$magenta+b
+set-face global SecondaryCursorEol $bg,$orange+i
 set-face global MatchingChar $black,$blue
 set-face global Search $br_white,$green
 set-face global CurrentWord $white,$blue
