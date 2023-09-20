@@ -62,12 +62,12 @@ set-face global list ${magenta}
 
 echo "
 set-face global Default ${br_white},${bg}
-set-face global PrimarySelection ${fg},$br_black+i
+set-face global PrimarySelection ${fg},$br_black
 set-face global SecondarySelection $black,$white
-set-face global PrimaryCursor $black,$red+b
-set-face global SecondaryCursor $bg,$br_cyan+i
-set-face global PrimaryCursorEol $black,$magenta+b
-set-face global SecondaryCursorEol $bg,$orange+i
+set-face global PrimaryCursor $black,$cyan+b
+set-face global SecondaryCursor $bg,$br_yellow+b
+set-face global PrimaryCursorEol $black,$red+b
+set-face global SecondaryCursorEol $bg,$br_green+b
 set-face global MatchingChar $black,$blue
 set-face global Search $br_white,$green
 set-face global CurrentWord $white,$blue
@@ -81,7 +81,7 @@ set-face global Information $yellow,$black
 set-face global Error $black,$red
 
 set-face global BufferPadding $black,$black
-set-face global Whitespace $br_black
+set-face global Whitespace $br_black,$bg+s
 set-face global StatusLine $fg,$br_black
 set-face global StatusLineInfo $blue,$br_black
 
