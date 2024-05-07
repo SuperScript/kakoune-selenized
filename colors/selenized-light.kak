@@ -64,8 +64,8 @@ echo "
 set-face global Default ${br_white},${bg}
 set-face global PrimarySelection ${fg},$br_black
 set-face global SecondarySelection $black,$white
-set-face global PrimaryCursor $black,$cyan+b
-set-face global SecondaryCursor $bg,$yellow+b
+set-face global PrimaryCursor $black,$cyan
+set-face global SecondaryCursor $bg,$yellow
 set-face global PrimaryCursorEol $black,$br_blue+b
 set-face global SecondaryCursorEol $bg,$br_green+b
 set-face global MatchingChar $black,$blue
